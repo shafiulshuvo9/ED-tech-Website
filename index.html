@@ -213,8 +213,8 @@
     <!------- card Start -->
 
     <section class="container">
-      <div class="row row-cols-2 g-3 mb-5 pb-5">
-        <div class="col d-flex border align-items-center p-2">
+      <div class="row row-cols-2 g-2 mb-5 pb-5">
+        <div class="d-flex border align-items-center p-2">
           <div class="me-3">
             <img
               src="images/course/course-1.png"
@@ -378,7 +378,7 @@
     <div
       class="container d-flex align-items-center justify-content-center text-light bg-primary mt-5 p-5 mb-5 rounded-3"
     >
-      <div class="ms-5" style="width: 70%">
+      <div class="ms-2" style="width: 70%">
         <h2 class="fw-bold">Ready to join?</h2>
         <p>
           It is a long established fact that a reader will be distracted by the
@@ -386,10 +386,48 @@
           readable content of a page when looking at its layout.
         </p>
       </div>
-      <div class="pt-4 ms-4">
-        <button class="btn bg-light text-primary px-4 mx-5">
-          <a class="" href="">Register Now</a>
-        </button>
+      <div class="text-black">
+        <div class="container mt-3">
+          <button
+            type="button"
+            class="btn btn-info"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            Register Now
+          </button>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Enter Your Name</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">Describe Your Skills</div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -472,8 +510,21 @@
     <!-------------- Student Container End-------->
 
     <!-------------- Student Feedback Start--->
+    <h2 class="text-center fw-bold">Some Students Feedback</h2>
+    <p class="text-center">
+      It is a long established fact that a reader will be distracted by the
+      readable <br />
+      content of a page when looking at its layout.
+    </p>
     <section class="container d-flex mt-5 mb-5">
-      <div class="border p-3 me-3">
+      <div class="border p-3 me-3 position-relative">
+        <span
+          class="position-absolute btn top-50 start-0 translate-middle badge rounded-pill bg-light text-primary border p-2 fs-4"
+        >
+          <
+          <span class="visually-hidden"></span>
+        </span>
+
         <div class="d-flex justify-content-between pb-2">
           <div>
             <img src="images/comma.png" alt="" />
@@ -505,7 +556,14 @@
           </div>
         </div>
       </div>
-      <div class="border p-3">
+      <div class="border p-3 position-relative">
+        <span
+          class="position-absolute btn top-50 start-100 translate-middle badge rounded-pill bg-primary p-2 fs-4"
+        >
+          >
+          <span class="visually-hidden"></span>
+        </span>
+
         <div class="d-flex justify-content-between pb-2">
           <div>
             <img src="images/comma.png" alt="" />
@@ -668,15 +726,15 @@
     <section class="container text-center mt-5 pt-5 mb-5 pb-5">
       <h3 class="pb-4 fw-bolder">Trusted by over 800+ companies</h3>
       <div>
-        <img class="pe-3 img-fluid" src="images/company/company-1.png" alt="" />
-        <img class="pe-3 img-fluid" src="images/company/company-2.png" alt="" />
-        <img class="pe-3 img-fluid" src="images/company/company-3.png" alt="" />
-        <img class="pe-3 img-fluid" src="images/company/company-4.png" alt="" />
-        <img class="pe-3 img-fluid" src="images/company/company-5.png" alt="" />
-        <img class="pe-3 img-fluid" src="images/company/company-6.png" alt="" />
+        <img class="pe-4 img-fluid" src="images/company/company-1.png" alt="" />
+        <img class="pe-4 img-fluid" src="images/company/company-2.png" alt="" />
+        <img class="pe-4 img-fluid" src="images/company/company-3.png" alt="" />
+        <img class="pe-4 img-fluid" src="images/company/company-4.png" alt="" />
+        <img class="pe-4 img-fluid" src="images/company/company-5.png" alt="" />
+        <img class="pe-4 img-fluid" src="images/company/company-6.png" alt="" />
       </div>
     </section>
-    <!-- company end -->
+    <!-------------------- company end--- -->
 
     <!-------------------------------- Main Section End---------------------- -->
 
@@ -697,6 +755,7 @@
         <i class="fa-brands fa-linkedin fs-5 p-2"></i>
         <i class="fa-brands fa-instagram fs-5 p-2"></i>
       </div>
+      <p class="pt-3">&copy;2022,Junior Web Developer. All rights reserved.</p>
     </footer>
     <!-------------------------------- Footer Section End---------------------- -->
 
